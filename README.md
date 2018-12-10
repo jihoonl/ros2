@@ -8,7 +8,12 @@
 > brew install cmake cppcheck eigen pcre poco python3 tinyxml wget
 
 # install dependencies for Fast-RTPS if you are using it
-> brew install asio tinyxml2
+> brew install asio
+
+# install specific version of tinyxml2
+> brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/0b3ee2f67043af1b4270096c13350420e3290399/Formula/tinyxml2.rb
+> brew pin tinyxml2
+
 
 # brew install opencv
 
